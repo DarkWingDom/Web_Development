@@ -1,0 +1,144 @@
+body {
+  background-image: url(NFImages/Forest.jpg);
+  background-size: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  color: bisque;
+  margin: 5%;
+  text-decoration: none;
+  height: auto;
+}
+
+header h1 {
+  background-image: url(NFImages/Wood2.jpg);
+  font-family: "Abril Fatface", cursive;
+  width: 800px;
+  height: 100px;
+  color: rgb(41, 16, 1);
+  font-size: 4rem;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2%;
+}
+nav {
+  text-align: center;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  margin: 1.2%;
+}
+hr {
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(218, 196, 2);
+}
+header nav a {
+  padding-left: 1rem;
+  color: rgb(241, 250, 191);
+  font-size: 2.2rem;
+  font-weight: bolder;
+}
+.box {
+  display: inline-block;
+  position: relative;
+}
+.info {
+  background-color: bisque;
+  display: inline-block;
+  position: relative;
+  left: 15%;
+  color: black;
+  width: 400px;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+.image {
+  height: 300px;
+  border: wheat;
+  border-width: 5px;
+  border-style: solid;
+  position: relative;
+  left: 38%;
+}
+.SubHead {
+  margin-bottom: 0;
+  margin-top: 60px;
+  font-style: italic;
+  font-size: 2.2rem;
+}
+.info2 {
+  background-color: bisque;
+  padding: 1%;
+  color: black;
+  font-size: 1.5rem;
+}
+.Gallery img {
+  height: 20rem;
+  border-style: solid;
+  border-color: wheat;
+  border-width: 5px;
+  margin: 0.5rem;
+}
+.Video {
+  margin: auto;
+}
+.FunFact {
+  font-family: fantasy;
+  font-weight: 700;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.FunFact hr {
+  width: 200px;
+  border-color: bisque;
+  border-width: 1px;
+}
+.FunFact2 {
+  font-family: fantasy;
+  font-weight: 700;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  font-size: 1.4rem;
+}
+.FunFact2 hr {
+  width: 300px;
+  border-color: bisque;
+  border-width: 1px;
+}
+#Sources {
+  font-size: 2.2rem;
+}
+#sourcelist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+  font-size: 2.2rem;
+}
+#sourcelist li a {
+  color: bisque;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+footer div {
+  display: flex;
+}
+footer a {
+  color: bisque;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+.Contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Home {
+  font-size: 2rem;
+  color: bisque;
+}
